@@ -1,0 +1,59 @@
+# General Settings
+title = "Fusca Experience - Em breve"
+baseURL = "" #YOUR SITE URL
+languageCode = "ptbr"
+theme = "mountain"
+resourceDir = "resources"
+paginate = 4
+summaryLength = 50
+DefaultContentLanguage = "ptbr" # Site language. Available translations in the theme's `/i18n` directory.
+
+# Main Settings
+[params]
+defaultLogo = "Mountain"
+defaultKeywords = ["clean", "minimal", "blog", "responsive", "google analytics", "bootstrap", "under construction", "coming soon", "modern", "countdown", "hugo theme", "creative"]
+defaultDescription = "Mountain - Coming Soon & Under Construction Hugo Theme"
+dateFormat = "January 2, 2006"
+authorName = "Mountain-Themes"
+disqusComments = " " #YOUR DISQUS COMMENTS SHORTNAME
+googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
+
+# Preloader Settings
+[params.preloader]
+logo = "images/spinner.gif"
+
+# Sidebar
+[params.sidebar]
+enable = 0 #SIDEBAR SHOW: [ 1 - yes, 0 - no ]
+search = 0 #SIDEBAR SEARCH WIDGET: [ 1 - yes, 0 - no ]
+latestPosts = 0 #SIDEBAR LATEST POSTS WIDGET: [ 1 - yes, 0 - no ]
+categories = 0 #SIDEBAR CATEGORIES TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+tags = 0 #SIDEBAR TAG TAXONOMY WIDGET: [ 1 - yes, 0 - no ]
+
+# Footer Settings
+[params.footer]
+copyright = "Fusca Experience © 2023. Projetado e programado por <a href='www.instagram.com/matheusbaliver' target='_blank'>Matheus Oliveira.</a>"
+
+# Up Button Settings
+[params.upBtn]
+icon = "fa-solid fa-chevron-up"
+url = "#top"
+
+# Social Settings
+[[params.social]]
+title = "Whatsapp"
+icon = "fa-brands fa-whatsapp"
+url = "wa.me/552196875-8299"
+[[params.social]]
+title = "Instagram"
+icon = "fa-brands fa-instagram"
+url = "https://www.instagram.com/fuscaexperience"
+
+# Sitemap Settings
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

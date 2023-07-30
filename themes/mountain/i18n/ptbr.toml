@@ -1,0 +1,62 @@
+[readMore]
+other = "Ler Mais"
+
+[authorBy]
+other = "por"
+
+[yourName]
+other = "Nome"
+
+[yourEmail]
+other = "Email"
+
+[yourMessage]
+other = "Mensagem"
+
+[submit]
+other = "Enviar"
+
+[sendMessage]
+other = "Enviar Mensagem"
+
+[latestPosts]
+other = "Últimas postagens"
+
+[taxonomyPageList]
+other = "Últimos posts por"
+
+[share]
+other = "Compartilhar"
+
+[tags]
+other = "Tags"
+
+[comments]
+other = "Comentários"
+
+[nextPost]
+other = "Próximo Post"
+
+[prevPost]
+other = "Voltar Post"
+
+[category]
+other = "Categoria"
+
+[search]
+other = "Busca"
+
+[searchResults]
+other = "Ops, sua busca não teve resultados."
+
+[searchNotFound]
+other = "Sem resultados"
+
+[categories]
+other = "Categorias"
+
+[errorNum]
+other = "404"
+
+[errorTitle]
+other = "Página não encontrada"
