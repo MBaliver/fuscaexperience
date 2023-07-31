@@ -43,7 +43,7 @@ url = "#top"
 [[params.social]]
 title = "Whatsapp"
 icon = "fa-brands fa-whatsapp"
-url = "wa.me/552196875-8299"
+url = "https://wa.me/552196875-8299"
 [[params.social]]
 title = "Instagram"
 icon = "fa-brands fa-instagram"
