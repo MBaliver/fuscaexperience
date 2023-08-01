@@ -12,7 +12,7 @@ DefaultContentLanguage = "ptbr" # Site language. Available translations in the t
 [params]
 defaultLogo = "Mountain"
 defaultKeywords = ["clean", "minimal", "blog", "responsive", "google analytics", "bootstrap", "under construction", "coming soon", "modern", "countdown", "hugo theme", "creative"]
-defaultDescription = "Descubra uma experiência única de acelerar o coração com os passeios de fusca por Miguel Pereira."
+defaultDescription = "Descubra uma experiência única de acelerar o coração com os passeios guiados em comboio."
 dateFormat = "January 2, 2006"
 authorName = "Fusca Experience"
 disqusComments = " " #YOUR DISQUS COMMENTS SHORTNAME
