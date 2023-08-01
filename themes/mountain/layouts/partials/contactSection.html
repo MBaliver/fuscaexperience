@@ -7,20 +7,22 @@
     <div class="row">
       <h2 class="wow fadeUp" data-wow-delay=".3s">{{ .title }}</h2>
       <div class="col-md-12">
-          <form id="contato" action="https://www.fuscaexperience.com" method="post" data-netlify="true">
-              <input class="wow fadeUp" data-wow-delay=".3s" type="text" name="name" id="name" placeholder="{{ i18n "yourName" }}" />
-              <input class="wow fadeUp" data-wow-delay=".3s" type="email" name="email" id="email" placeholder="{{ i18n "yourEmail" }}" />
-              <textarea class="wow fadeUp" data-wow-delay=".3s" name="msg" id="msg" placeholder="{{ i18n "yourMessage" }}"></textarea>
-              <input class="wow fadeUp" data-wow-delay=".3s" type="submit" name="submit" id="submit" value="{{ i18n "sendMessage" }}" />
-             
-             <script>
-                function atualizarPagina() {
-                  window.location.reload();
-                }
-            
-                setTimeout(atualizarPagina, 5000); // 5 segundos
-              </script>
-          </form>
+        <form id="contato" action="" method="post" data-netlify="true" onsubmit="return reloadPageAfterSubmit()">
+          <input class="wow fadeUp" data-wow-delay=".3s" type="text" name="name" id="name" placeholder="{{ i18n "yourName" }}" />
+          <input class="wow fadeUp" data-wow-delay=".3s" type="email" name="email" id="email" placeholder="{{ i18n "yourEmail" }}" />
+          <textarea class="wow fadeUp" data-wow-delay=".3s" name="msg" id="msg" placeholder="{{ i18n "yourMessage" }}"></textarea>
+          <input class="wow fadeUp" data-wow-delay=".3s" type="submit" name="submit" id="submit" value="{{ i18n "sendMessage" }}" />
+      </form>      
+      <script>
+          function reloadPageAfterSubmit() {
+              // Aguarde um pequeno intervalo para garantir que os dados do formulário sejam enviados.
+              setTimeout(function () {
+                  location.reload(); // Recarrega a página após o envio do formulário.
+              }, 500); // Tempo em milissegundos. Pode ser ajustado conforme necessário.
+      
+              return true; // Permite o envio padrão do formulário após a atualização.
+          }
+      </script>
       </div>
     </div>
   </div>
