@@ -1,6 +1,6 @@
 # General Settings
 title = "Fusca Experience - Em breve"
-baseURL = "" #YOUR SITE URL
+baseURL = "https://www.fuscaexperience.com.br" #YOUR SITE URL
 languageCode = "ptbr"
 theme = "mountain"
 resourceDir = "resources"
@@ -12,9 +12,9 @@ DefaultContentLanguage = "ptbr" # Site language. Available translations in the t
 [params]
 defaultLogo = "Mountain"
 defaultKeywords = ["clean", "minimal", "blog", "responsive", "google analytics", "bootstrap", "under construction", "coming soon", "modern", "countdown", "hugo theme", "creative"]
-defaultDescription = "Mountain - Coming Soon & Under Construction Hugo Theme"
+defaultDescription = "Descubra uma experiência única de acelerar o coração com os passeios de fusca por Miguel Pereira."
 dateFormat = "January 2, 2006"
-authorName = "Mountain-Themes"
+authorName = "Fusca Experience"
 disqusComments = " " #YOUR DISQUS COMMENTS SHORTNAME
 googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
 
