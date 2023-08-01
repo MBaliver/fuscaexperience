@@ -39,6 +39,25 @@ html, body {
 	text-rendering: optimizeLegibility;
   }
   
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
   a {
 	text-decoration: none !important;
 	color: #000;
@@ -1536,7 +1555,24 @@ h6 {
   
   @media only screen and (max-width: 756px) {
 
-
+	.float{
+		position:fixed;
+		width:60px;
+		height:60px;
+		bottom:110px;
+		right:40px;
+		background-color:#25d366;
+		color:#FFF;
+		border-radius:50px;
+		text-align:center;
+	  font-size:30px;
+		box-shadow: 2px 2px 3px #999;
+	  z-index:100;
+	}
+	
+	.my-float{
+		margin-top:16px;
+	}
 
 	footer {
 	  .footer-content {
@@ -1559,6 +1595,7 @@ h6 {
 		font-size: 14px;
 		text-align: center;
 		margin-left: 0px;
+		padding: 15px;
 	  }
   
 	  h1 {
@@ -1579,7 +1616,7 @@ h6 {
 	  }
   
 	  .logo img {
-		width: 25%;
+		width: 60%;
 		height: auto;
 		margin: 10px;
 	  }
