@@ -1,6 +1,6 @@
 # General Settings
 title = "Fusca Experience - Em breve"
-baseURL = "https://www.fuscaexperience.com.br" #YOUR SITE URL
+baseURL = "" #YOUR SITE URL
 languageCode = "ptbr"
 theme = "mountain"
 resourceDir = "resources"
